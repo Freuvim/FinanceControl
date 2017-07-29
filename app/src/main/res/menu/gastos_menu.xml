@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_order"
+        android:icon="@drawable/ic_ordenar"
+        android:title="@string/nav_order"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menuRecente"
+                    android:checked="true"
+                    android:title="@string/last" />
+                <item
+                    android:id="@+id/menuAntigo"
+                    android:title="@string/older" />
+                <item
+                    android:id="@+id/menuMaior"
+                    android:title="@string/highest" />
+                <item
+                    android:id="@+id/menuMenor"
+                    android:title="@string/lower" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Finance Control</string>
+    <string name="launcher_label">Fin.Control</string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Fechar navigation drawer</string>
+
+    <string name="activity_dados">Adicione um gasto:</string>
+    <string name="activity_about">Sobre</string>
+
+    <string name="nav_gastos">Gastos</string>
+    <string name="nav_relatorios">Gerar Relatórios</string>
+    <string name="nav_clean">Limpar Dados</string>
+    <string name="nav_about">Sobre</string>
+
+    <string name="display_value">Valor que foi Gasto:</string>
+    <string name="value_hint">R$0,00</string>
+    <string name="display_type">Tipo de gasto:</string>
+    <string-array name="type_array">
+        <item>Vestuário</item>
+        <item>Veículos</item>
+        <item>Diversos</item>
+        <item>Alimentação</item>
+        <item>Entretenimento</item>
+        <item>Compras Internacionais</item>
+        <item>Turismo</item>
+    </string-array>
+    <string name="display_date">Data:</string>
+    <string name="dateHint">00/00/0000</string>
+    <string name="save">Salvar</string>
+    <string name="delete">Excluir</string>
+    <string name="change">Modificar</string>
+
+    <string name="listaGastos_vazia">Lista de Gastos Vazia</string>
+    <string name="nav_order">Ordenar Lista</string>
+    <string name="last">Mais Recente</string>
+    <string name="older">Mais Antigo</string>
+    <string name="highest">Maior Valor</string>
+    <string name="lower">Menor Valor</string>
+
+    //Relatorio
+    <string name="clothing">Vestuário</string>
+    <string name="vehicles">Veículos</string>
+    <string name="various">Diversos</string>
+    <string name="feeding">Alimentação</string>
+    <string name="entertainment">Entretenimento</string>
+    <string name="international_purchases">Compras Int.</string>
+    <string name="tourism">Turismo</string>
+    <string name="display_total">Total: %.2f</string>
+
+    //About
+    <string name="display_students">Alunos:</string>
+    <string name="first_student">Kélvin Tesche Ievenes</string>
+    <string name="second_student">Guilherme Morari</string>
+    <string name="third_student">Bruno Dias</string>
+    <string name="display_teacher">Professor:</string>
+    <string name="teacher">Marcos Nava</string>
+    <string name="display_lib_graphic">Gráfico:</string>
+    <string name="holograph">HoloGraph</string>
+    <string name="formattedittext">FormattEditText</string>
+    <string name="formattedittext_display">Masked EditText</string>
+    <string name="night_mode">Night Mode</string>
+
+</resources>

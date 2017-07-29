@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="frgGastos"
+    tools:context="io.github.freuvim.financecontrol.fragments.GastosFragment">
+
+    <TextView
+        android:id="@+id/listaGastos_vazia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/listaGastos_vazia"
+        android:textSize="30sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lstGastos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

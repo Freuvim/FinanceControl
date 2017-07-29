@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#388E3C</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="textColorSecondary">#ffffff</color>
+
+    <color name="menu_text_color_checked">#388E3C</color>
+    <color name="menu_text_color_unchecked">#202020</color>
+
+    <color name="background">#1A1A1A</color>
+    <color name="white">#ffffff</color>
+    <color name="cor1">#000CFF</color>
+    <color name="cor2">#99CC00</color>
+    <color name="cor3">#9C27B0</color>
+    <color name="cor4">#FFEE00</color>
+    <color name="cor5">#FF0000</color>
+    <color name="cor6">#00B7FF</color>
+    <color name="cor7">#FF6600</color>
+</resources>

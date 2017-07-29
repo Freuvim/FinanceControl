@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gastos"
+            android:icon="@drawable/ic_gastos"
+            android:title="@string/nav_gastos" />
+        <item
+            android:id="@+id/nav_relatorios"
+            android:icon="@drawable/ic_relatorios"
+            android:title="@string/nav_relatorios" />
+        <item
+            android:id="@+id/nav_limpar"
+            android:checkable="false"
+            android:icon="@drawable/ic_limpar"
+            android:title="@string/nav_clean" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:checkable="false"
+            android:icon="@drawable/ic_sobre"
+            android:title="@string/nav_about" />
+    </group>
+
+</menu>

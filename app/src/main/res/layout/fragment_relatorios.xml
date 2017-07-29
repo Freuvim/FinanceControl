@@ -21,24 +21,30 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="240dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:orientation="horizontal">
 
             <TableLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:paddingEnd="5dp"
-                android:paddingStart="5dp">
+                android:layout_gravity="center_vertical">
 
                 <TableRow
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
 
                     <ImageView
                         android:id="@+id/cor1"
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
                         android:src="@color/cor1"
                         tools:ignore="ContentDescription" />
@@ -46,22 +52,27 @@
                     <TextView
                         android:id="@+id/tipo1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:paddingEnd="5dp"
                         android:paddingStart="5dp"
-                        android:text="@string/clothing"
-                        tools:ignore="RtlSymmetry" />
+                        android:text="@string/clothing" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingTop="5dp">
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
 
                     <ImageView
                         android:id="@+id/cor2"
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
                         android:src="@color/cor2"
                         tools:ignore="ContentDescription" />
@@ -69,22 +80,27 @@
                     <TextView
                         android:id="@+id/tipo2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:paddingEnd="5dp"
                         android:paddingStart="5dp"
-                        android:text="@string/vehicles"
-                        tools:ignore="RtlSymmetry" />
+                        android:text="@string/vehicles" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp">
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
 
                     <ImageView
                         android:id="@+id/cor3"
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
                         android:src="@color/cor3"
                         tools:ignore="ContentDescription" />
@@ -92,22 +108,27 @@
                     <TextView
                         android:id="@+id/tipo3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:paddingEnd="5dp"
                         android:paddingStart="5dp"
-                        android:text="@string/various"
-                        tools:ignore="RtlSymmetry" />
+                        android:text="@string/various" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp">
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
 
                     <ImageView
                         android:id="@+id/cor4"
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
                         android:src="@color/cor4"
                         tools:ignore="ContentDescription" />
@@ -115,22 +136,27 @@
                     <TextView
                         android:id="@+id/tipo4"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:paddingEnd="5dp"
                         android:paddingStart="5dp"
-                        android:text="@string/feeding"
-                        tools:ignore="RtlSymmetry" />
+                        android:text="@string/feeding" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp">
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
 
                     <ImageView
                         android:id="@+id/cor5"
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
                         android:src="@color/cor5"
                         tools:ignore="ContentDescription" />
@@ -138,22 +164,27 @@
                     <TextView
                         android:id="@+id/tipo5"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:paddingEnd="5dp"
                         android:paddingStart="5dp"
-                        android:text="@string/entertainment"
-                        tools:ignore="RtlSymmetry" />
+                        android:text="@string/entertainment" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp">
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
 
                     <ImageView
                         android:id="@+id/cor6"
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
                         android:src="@color/cor6"
                         tools:ignore="ContentDescription" />
@@ -161,22 +192,27 @@
                     <TextView
                         android:id="@+id/tipo6"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:paddingEnd="5dp"
                         android:paddingStart="5dp"
-                        android:text="@string/international_purchases"
-                        tools:ignore="RtlSymmetry" />
+                        android:text="@string/international_purchases" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp">
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
 
                     <ImageView
                         android:id="@+id/cor7"
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
                         android:src="@color/cor7"
                         tools:ignore="ContentDescription" />
@@ -184,26 +220,21 @@
                     <TextView
                         android:id="@+id/tipo7"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_height="20dp"
+                        android:gravity="center_vertical"
+                        android:paddingEnd="5dp"
                         android:paddingStart="5dp"
-                        android:text="@string/tourism"
-                        tools:ignore="RtlSymmetry" />
+                        android:text="@string/tourism" />
                 </TableRow>
             </TableLayout>
 
             <io.github.freuvim.financecontrol.holograph.PieGraph
                 android:id="@+id/graph"
-                android:layout_width="wrap_content"
-                android:layout_height="180dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp" />
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center" />
 
         </LinearLayout>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="20dp" />
 
         <ListView
             android:id="@+id/listaTipos"

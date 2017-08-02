@@ -21,10 +21,10 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="240dp"
-            android:paddingStart="20dp"
+            android:layout_height="250dp"
+            android:orientation="horizontal"
             android:paddingEnd="20dp"
-            android:orientation="horizontal">
+            android:paddingStart="20dp">
 
             <TableLayout
                 android:layout_width="wrap_content"
@@ -34,18 +34,18 @@
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp">
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
 
                     <ImageView
                         android:id="@+id/cor1"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:paddingStart="5dp"
-                        android:paddingEnd="5dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingTop="5dp"
                         android:src="@color/cor1"
                         tools:ignore="ContentDescription" />
 
@@ -62,18 +62,18 @@
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp">
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
 
                     <ImageView
                         android:id="@+id/cor2"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:paddingStart="5dp"
-                        android:paddingEnd="5dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingTop="5dp"
                         android:src="@color/cor2"
                         tools:ignore="ContentDescription" />
 
@@ -90,18 +90,18 @@
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp">
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
 
                     <ImageView
                         android:id="@+id/cor3"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:paddingStart="5dp"
-                        android:paddingEnd="5dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingTop="5dp"
                         android:src="@color/cor3"
                         tools:ignore="ContentDescription" />
 
@@ -118,18 +118,18 @@
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp">
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
 
                     <ImageView
                         android:id="@+id/cor4"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:paddingStart="5dp"
-                        android:paddingEnd="5dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingTop="5dp"
                         android:src="@color/cor4"
                         tools:ignore="ContentDescription" />
 
@@ -146,18 +146,18 @@
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp">
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
 
                     <ImageView
                         android:id="@+id/cor5"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:paddingStart="5dp"
-                        android:paddingEnd="5dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingTop="5dp"
                         android:src="@color/cor5"
                         tools:ignore="ContentDescription" />
 
@@ -174,18 +174,18 @@
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp">
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
 
                     <ImageView
                         android:id="@+id/cor6"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:paddingStart="5dp"
-                        android:paddingEnd="5dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingTop="5dp"
                         android:src="@color/cor6"
                         tools:ignore="ContentDescription" />
 
@@ -202,18 +202,18 @@
                 <TableRow
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingBottom="5dp">
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
 
                     <ImageView
                         android:id="@+id/cor7"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:paddingStart="5dp"
-                        android:paddingEnd="5dp"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
                         android:layout_gravity="center_vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingTop="5dp"
                         android:src="@color/cor7"
                         tools:ignore="ContentDescription" />
 
@@ -228,15 +228,25 @@
                 </TableRow>
             </TableLayout>
 
-            <io.github.freuvim.financecontrol.holograph.PieGraph
-                android:id="@+id/graph"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_gravity="center" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <io.github.freuvim.financecontrol.holograph.PieGraph
+                    android:id="@+id/graph"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 
         <ListView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
             android:id="@+id/listaTipos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

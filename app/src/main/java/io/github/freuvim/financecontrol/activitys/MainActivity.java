@@ -4,6 +4,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        final DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -97,14 +98,28 @@ public class MainActivity extends AppCompatActivity
                     SharedPreferences.Editor sharedPreferencesEditor = getSharedPreferences("Settings", MODE_PRIVATE).edit();
                     sharedPreferencesEditor.putBoolean("NightMode", true);
                     sharedPreferencesEditor.apply();
-                    MainActivity.this.recreate();
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                 } else {
                     SharedPreferences.Editor sharedPreferencesEditor = getSharedPreferences("Settings", MODE_PRIVATE).edit();
                     sharedPreferencesEditor.putBoolean("NightMode", false);
                     sharedPreferencesEditor.apply();
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-                    MainActivity.this.recreate();
                 }
+                drawer.closeDrawers();
+                Runnable r = new Runnable() {
+                    @Override
+                    public void run(){
+                        Bundle  bundle = new Bundle();
+                        bundle.putBoolean("intro", true);
+                        bundle.putInt("destino", atual);
+                        Intent i = new Intent(MainActivity.this, MainActivity.class);
+                        i.putExtras(bundle);
+                        startActivity(i);
+                        finish();
+                    }
+                };
+                Handler h = new Handler();
+                h.postDelayed(r, 250);
             }
         });
     }

@@ -2,7 +2,6 @@
 <resources>
     <color name="colorPrimary">#212121</color>
     <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#FFC107</color>
 
     <color name="menu_text_color_checked">#FFC107</color>
     <color name="menu_text_color_unchecked">#FFFFFF</color>
